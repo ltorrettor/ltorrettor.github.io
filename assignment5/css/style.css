@@ -1,0 +1,31 @@
+/*
+	Lucas Torres
+    lucas_torres@student.uml.edu
+    COMP.4610 OL CE2 045 GUI Programming I 2024 Summer
+    Homework 5
+*/
+
+
+.center {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.holder {
+    /*scale: 90%;*/
+}
+
+div.tile {
+    display: block;
+    position: absolute;
+    width: 75.2666px;
+    height: 80px;
+    text-align: center;
+}
+img.tile {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
