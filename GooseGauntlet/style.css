@@ -1,0 +1,11 @@
+html {
+	scroll-padding-top: 62px;
+}
+
+body {
+	height:  3000px;
+	overflow: auto;
+	position: relative;
+
+	padding-top: 62px; /* space underneath navbar  */
+}
