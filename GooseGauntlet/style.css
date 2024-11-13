@@ -9,3 +9,17 @@ body {
 
 	padding-top: 62px; /* space underneath navbar  */
 }
+
+.jumby {
+	background-image: url("img/bannerbg.png");
+	background-position: center bottom;
+	/*text-shadow: 1px 1px 3px white;*/
+}
+
+.reqcard {
+	height: 1000px;
+}
+
+iframe {
+	width:  100%;
+}

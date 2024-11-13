@@ -26,17 +26,44 @@
 						<li class="nav-item">
 						<a class="nav-link" href="#heading-team">Team</a>
 					</li>
+					<!-- navbar dropdown for diagrams and documents -->
+					<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Documents & Diagrams
+							</a>
+						<ul class="dropdown-menu">
+							</li>
+								<li class="nav-item">
+								<a class="nav-link" href="#heading-requirements">Requirements</a>
+							</li>
+							</li>
+								<li class="nav-item">
+								<a class="nav-link" href="#heading-use-case-diagram">Use Case Diagram</a>
+							</li>
+							</li>
+								<li class="nav-item">
+								<a class="nav-link" href="#heading-class-diagram">Class Diagram</a>
+							</li>
+							</li>
+								<li class="nav-item">
+								<a class="nav-link" href="#heading-sequence-diagram">Sequence Diagram</a>
+							</li>
+						</ul>
+					</li>
+
+
 				</ul>
 			</div>
 		</nav>
 
 		<div>
 			<div class="my-5" id="heading-home">
-				<div class="p-5 text-center bg-body-tertiary">
-					<div class="container py-5">
-						<h1 class="text-body-emphasis">Goose Gauntlet</h1>
-						<p class="col-lg-8 mx-auto lead">
+				<div class="jumby p-5 text-center bg-body-tertiary">
+					<div class="container py-5 bg-black bg-opacity-25">
+						<h1 class="text-white">Goose Gauntlet</h1>
+						<p class="col-lg-8 mx-auto lead text-white">
 							Description of the <code>cool</code> game goes here, explaining stuff and things.
+							This is where we will describe what the game is and how it works.
 						</p>
 					</div>
 				</div>
@@ -47,25 +74,27 @@
 				<div class="row row-cols-1 mb-3 g-3" id="heading-background">
 					<div class="col">
 						<div class="card h-100">
-							<div class="card-header bg-primary text-light ">
-								<h5 class="card-title m-0">Potato</h5>
+							<div class="card-header bg-primary text-light">
+								<h5 class="m-0">Project Background</h5>
 							</div>
 							<div class="card-body">
-								<p class="card-text">Some text about potatoes goes here, supposedly.</p>
+								<p class="card-text">This is where we would describe the project's background. I'm not 100% sure what a "background" is, but I think what we're supposed to do here is describe in our own words what the assignment given to us is, regarding the educational requirement and whatnot.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 
+
+
 				<!-- row for the "Team" section card -->
-				<div class="row" id="heading-team">
+				<div class="row mb-3" id="heading-team">
 					<div class="col">
 						<div class="card h-100">
 							<div class="card-header bg-primary text-light">
-								Our Team
+								<h5 class="m-0">Our Team</h5>
 							</div>
 							<div class="card-body">
-								<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+								<div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3">
 									<div class="col">
 										<div class="card h-100">
 											<img src="img/portrait_christian.jpg" class="card-img-top" alt="...">
@@ -74,6 +103,7 @@
 												<p class="card-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Euismod a est nec per ut. Taciti felis netus porta efficitur integer amet erat.</p>
 											</div>
 											<div class="card-footer">
+												<a href="mailto:Christian_Ambrosini@student.uml.edu" class="btn btn-outline-primary">Email</a>
 												<a href="https://github.com/cambrosini555" target="_blank" class="btn btn-outline-primary" >GitHub</a>
 											</div>
 										</div>
@@ -86,6 +116,7 @@
 												<p class="card-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Euismod a est nec per ut. Taciti felis netus porta efficitur integer amet erat.</p>
 											</div>
 											<div class="card-footer">
+												<a href="mailto:Danny_Machado@student.uml.edu" class="btn btn-outline-primary">Email</a>
 												<a href="https://github.com/DannyMacha25" target="_blank" class="btn btn-outline-primary" >GitHub</a>
 											</div>
 										</div>
@@ -98,6 +129,7 @@
 												<p class="card-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Euismod a est nec per ut. Taciti felis netus porta efficitur integer amet erat.</p>
 											</div>
 											<div class="card-footer">
+												<a href="mailto:william_susi@student.uml.edu" class="btn btn-outline-primary">Email</a>
 												<a href="https://github.com/Will-Susi" target="_blank" class="btn btn-outline-primary" >GitHub</a>
 												<a href="https://www.linkedin.com/in/will-susi/" target="_blank" class="btn btn-outline-primary" >LinkedIn</a>
 											</div>
@@ -111,6 +143,7 @@
 												<p class="card-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Euismod a est nec per ut. Taciti felis netus porta efficitur integer amet erat.</p>
 											</div>
 											<div class="card-footer">
+												<a href="mailto:lucas_torres@student.uml.edu" class="btn btn-outline-primary">Email</a>
 												<a href="https://github.com/ltorrettor" target="_blank" class="btn btn-outline-primary" >GitHub</a>
 											</div>
 										</div>
@@ -123,6 +156,7 @@
 												<p class="card-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Euismod a est nec per ut. Taciti felis netus porta efficitur integer amet erat.</p>
 											</div>
 											<div class="card-footer">
+												<a href="mailto:Wilson_Van@student.uml.edu" class="btn btn-outline-primary">Email</a>
 												<a href="https://github.com/Wilson-Van" target="_blank" class="btn btn-outline-primary" >GitHub</a>
 											</div>
 										</div>
@@ -133,6 +167,65 @@
 					</div>
 
 				</div>
+
+				<!-- row for the "Project Requirements" -->
+				<div class="row mb-3" id="heading-requirements">
+					<div class="col">
+						<div class="card h-100">
+							<div class="card-header bg-primary text-light">
+								<h5 class="m-0">Requirements</h5>
+							</div>
+							<div class="card-body bg-body-tertiary">
+								<iframe class="min-vh-100" src="https://docs.google.com/document/d/e/2PACX-1vSXcGFl7ATpQ6EQPVubkXlHSXWm2_Wcqu069Re3J2zPKVu4OQYUTCmGlMp6IloNVj9jsHmZR9jco25z/pub?embedded=true"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- row for the "Use Case Diagram" -->
+				<div class="row mb-3" id="heading-use-case-diagram">
+					<div class="col">
+						<div class="card h-100">
+							<div class="card-header bg-primary text-light">
+								<h5 class="m-0">Use Case Diagram</h5>
+							</div>
+							<div class="card-body bg-body-tertiary">
+								<iframe frameborder="0" style="width:100%;height:943px;" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&nav=1&title=Project_Case_Diagram.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1gmQkJT_tyvP8HoD3dAKcXeaTqnAboK5W%26export%3Ddownload"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- row for the "Class Diagram" -->
+				<div class="row mb-3" id="heading-class-diagram">
+					<div class="col">
+						<div class="card h-100">
+							<div class="card-header bg-primary text-light">
+								<h5 class="m-0">Class Diagram</h5>
+							</div>
+							<div class="card-body bg-body-tertiary">
+								<iframe frameborder="0" style="width:100%;height:1141px;" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&nav=1&title=SWE%20Project%20-%20Class%20Diagram.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1SSPSBf-x_2HPCdLWU2ea69z0jG-bLkjW%26export%3Ddownload"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- row for the "Sequence Diagram" -->
+				<div class="row mb-3" id="heading-sequence-diagram">
+					<div class="col">
+						<div class="card h-100">
+							<div class="card-header bg-primary text-light">
+								<h5 class="m-0">Sequence Diagram</h5>
+							</div>
+							<div class="card-body bg-body-tertiary">
+								<iframe frameborder="0" style="width:100%;height:3721px;" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&nav=1&title=SWE%20Project%20-%20Sequence%20Diagrams.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oceNyMyA_x7e93MwWn-_QHw6SnuWYuhT%26export%3Ddownload"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
 			</div>
 		</div>
 
