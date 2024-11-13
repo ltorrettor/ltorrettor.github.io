@@ -13,6 +13,8 @@ body {
 .jumby {
 	background-image: url("img/bannerbg.png");
 	background-position: center bottom;
+	background-repeat: repeat-x;
+	background-size: contain;
 	/*text-shadow: 1px 1px 3px white;*/
 }
 
