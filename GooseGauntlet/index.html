@@ -11,20 +11,30 @@
 </head>
 
 <body>
-	<nav id="main-navbar" class="navbar navbar-expand fixed-top bg-primary" data-bs-theme="dark">
+	<nav id="main-navbar" class="navbar navbar-expand-md fixed-top bg-primary" data-bs-theme="dark">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#">
 				<img src="icon.png" height="32" style="vertical-align: top">
 			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarToggler">
 			<ul class="navbar-nav me-auto mb-2 mb-md-0">
 				<li class="nav-item">
-					<a class="nav-link active" href="#heading-home">Home</a>
+					<a class="nav-link active" href="#heading-home">
+						<span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home</span>
+					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#heading-background">Background</a>
+					<a class="nav-link" href="#heading-background">
+						<span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Background</span>
+					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#heading-team">Team</a>
+					<a class="nav-link" href="#heading-team">
+						<span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Team</span>
+					</a>
 				</li>
 				<!-- navbar dropdown for diagrams and documents -->
 				<li class="nav-item dropdown">
@@ -34,23 +44,32 @@
 					<ul class="dropdown-menu">
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#heading-requirements">Requirements</a>
+					<a class="nav-link" href="#heading-requirements">
+						<span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Requirements</span>
+					</a>
 				</li>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#heading-use-case-diagram">Use Case Diagram</a>
+					<a class="nav-link" href="#heading-use-case-diagram">
+						<span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Use Case Diagram</span>
+					</a>
 				</li>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#heading-class-diagram">Class Diagram</a>
+					<a class="nav-link" href="#heading-class-diagram">
+						<span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Class Diagram</span>
+					</a>
 				</li>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#heading-sequence-diagram">Sequence Diagram</a>
+					<a class="nav-link" href="#heading-sequence-diagram">
+						<span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Sequence Diagram</span>
+					</a>
 				</li>
 			</ul>
 			</li>
 			</ul>
+			</div>
 		</div>
 	</nav>
 	<div>
