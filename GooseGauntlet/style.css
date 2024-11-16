@@ -1,5 +1,5 @@
 html {
-	scroll-padding-top: 62px;
+	scroll-padding-top: 64px;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
 	overflow: auto;
 	position: relative;
 
-	padding-top: 62px;
+	padding-top: 64px;
 	/* space underneath navbar  */
 }
 
