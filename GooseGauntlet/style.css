@@ -39,3 +39,8 @@ a>span {
 	padding: 0;
 	margin: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
 }
+
+.gdembed {
+	min-width: 1280px;
+	min-height: 720px;
+}
