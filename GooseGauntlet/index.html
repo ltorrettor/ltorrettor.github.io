@@ -32,6 +32,11 @@
 						</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link" href="#heading-prototype">
+							<span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Prototype</span>
+						</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link" href="#heading-team">
 							<span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Team</span>
 						</a>
@@ -39,11 +44,6 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#heading-presentation">
 							<span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Slides</span>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#heading-prototype">
-							<span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Prototype</span>
 						</a>
 					</li>
 					<li class="nav-item">
@@ -79,6 +79,11 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#heading-sequence-diagram">
 							<span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Sequence Diagram</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#heading-state-diagram">
+							<span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">State Diagram</span>
 						</a>
 					</li>
 				</ul>
@@ -146,6 +151,28 @@
 						<div class="card-body">
 							<p class="card-text lead">Goose Gauntlet was created with middle school students in mind. Our motivation was to create a game that would be fun and difficult for the player without going back on what makes a game educational. The content focuses mainly on spelling and critical thinking, two skills that are often nurtured in children going through their middle school years. Using these different ideas allowed us to create something unique that we hope you will enjoy.
 							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- row for the prototype -->
+			<div class="row mb-3" id="heading-prototype">
+				<div class="col">
+					<div class="card h-100">
+						<div class="card-header bg-primary text-light text-center">
+							<h5 class="m-0">Playable Prototype</h5>
+						</div>
+						<div class="card-body bg-body-tertiary text-center">
+							<ul class="list-group mb-3">
+								<li class="list-group-item list-group-item-dark">Final Prototype</li>
+								<a class="list-group-item list-group-item-action link-primary" target="_blank" href="prototype_final/index.html">Play the prototype right in your browser!</a>
+								<a class="list-group-item list-group-item-action link-primary" download href="prototype_final/win64_GooseGauntlet_prototype_v2.zip">Download the Windows executable for the prototype</a>
+							</ul>
+							<ul class="list-group mb-3">
+								<li class="list-group-item list-group-item-dark">Throwaway UI Prototype</li>
+								<a class="list-group-item list-group-item-action link-primary" target="_blank" href="prototype_initial/index.html">Try out the throwaway UI prototype in your browser</a>
+								<a class="list-group-item list-group-item-action link-primary" download href="prototype_initial/win64_GooseGauntlet_prototype_v1.zip">Download the Windows executable for the throwaway UI prototype</a>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -251,27 +278,12 @@
 							<h5 class="m-0">Presentation Slides</h5>
 						</div>
 						<div class="card-body bg-body-tertiary">
-							<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRLLWGtgKUgOH5AxM4iujaVpHC-HQcNARKzvGxPjtf3gQnX_44NeuACi0FHJ39WLcUTnc9i_nTo0-Dn/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="740" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+							<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS3QbkVYmAIxhcjJor1wNRtDt-a9DH2FmfyPYp2e3SkeAVV5qG4zAwQjWoPHIbKyujv2cnwk5FlOh2u/embed?start=false&loop=false&delayms=30000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- row for the prototype and demonstration video -->
-			<div class="row mb-3" id="heading-prototype">
-				<div class="col">
-					<div class="card h-100">
-						<div class="card-header bg-primary text-light text-center">
-							<h5 class="m-0">Playable Prototype</h5>
-						</div>
-						<div class="card-body bg-body-tertiary text-center">
-							<!-- <p class="card-text">As soon as we get a prototype, we'll put it right here. Even better, it'll be <em>playable</em> right here! (Thanks godot!)</p> -->
-							<!-- <iframe class="gdembed" frameborder=0 src="prototype/GooseGauntlet.html"/> -->
-							<a class="btn btn-success btn-lg" href="prototype_final/index.html" role="button" target="_blank">Click here to play the prototype right in your browser!</a>
-
-						</div>
-					</div>
-				</div>
-			</div>
+			<!-- row for the demonstration video -->
 			<div class="row mb-3" id="heading-demo">
 				<div class="col">
 					<div class="card h-100">
@@ -279,7 +291,7 @@
 							<h5 class="m-0">Demonstration Video</h5>
 						</div>
 						<div class="card-body bg-body-tertiary">
-							<p class="card-text">There'll eventually be one of those fancy video embeds in this area, demonstrating the game. Once we have that, we'll probably move this more toward the top of the webpage to show it off better.</p>
+							<iframe width="1280" height="720" src="https://www.youtube.com/embed/_mpf7XQrp9U?si=jYMvpMO-mAYPt0_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>
@@ -290,10 +302,11 @@
 				<div class="col">
 					<div class="card h-100">
 						<div class="card-header bg-primary text-light text-center">
-							<h5 class="m-0">Requirements</h5>
+							<h5 class="m-0">Software Requirements Specification (SRS)</h5>
 						</div>
 						<div class="card-body bg-body-tertiary">
-							<iframe class="min-vh-100" src="https://docs.google.com/document/d/e/2PACX-1vSXcGFl7ATpQ6EQPVubkXlHSXWm2_Wcqu069Re3J2zPKVu4OQYUTCmGlMp6IloNVj9jsHmZR9jco25z/pub?embedded=true"></iframe>
+							<!-- <iframe class="min-vh-100" src="https://docs.google.com/document/d/e/2PACX-1vSXcGFl7ATpQ6EQPVubkXlHSXWm2_Wcqu069Re3J2zPKVu4OQYUTCmGlMp6IloNVj9jsHmZR9jco25z/pub?embedded=true"></iframe> -->
+							<iframe class="min-vh-100" src="https://docs.google.com/document/d/e/2PACX-1vRnpBw5CGJIC-LDfxkrlT5pdvHbUjnHuIe1DyaEt-o6e4WHPM_zjFUf0JV3l0-J4FZUIk3Czup-1VO2/pub?embedded=true&headers=false"></iframe>
 						</div>
 					</div>
 				</div>
@@ -333,6 +346,16 @@
 						</div>
 						<div class="card-body bg-body-tertiary">
 							<iframe class="min-vh-100" frameborder="0" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&nav=1&title=SWE%20Project%20-%20Sequence%20Diagrams%202.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1yU8r4xTurAwz1543MRGM_kPBcBcAOLTe%26export%3Ddownload"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- row for the state diagram -->
+			<div class="row mb-3" id="heading-state-diagram">
+				<div class="col">
+					<div class="card h-100">
+						<div class="card-body bg-body-tertiary">
+							<iframe class="min-vh-100" frameborder="0" src="https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&nav=1&title=SWE%20-%20Project%20State%20Diagram.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1t1SWa9xgH5mSXqSAu8i6PDZkmgQrjJ60%26export%3Ddownload"></iframe>
 						</div>
 					</div>
 				</div>
