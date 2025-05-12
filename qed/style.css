@@ -1,0 +1,29 @@
+.widest-col {
+    width: 100%;
+}
+
+.expression,
+.term {
+    transition: background-color 0.2s;
+    display: inline-block;
+    
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.binary-operator,
+.term {
+    padding: 0em .2em;
+}
+
+.root-expression {
+    width: 100%;
+}
+
+.highlighted {
+    background-color: #ffbe4780;
+}
+
+.selected {
+    background-color: #47f9ff80;
+}
